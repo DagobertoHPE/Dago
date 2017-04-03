@@ -1,0 +1,588 @@
+
+         {
+              "errors": null,
+              "originalRequest": {
+                "channelId": "ecomm",
+                "appId": "my-trips",
+                "pageId": "trip-summary",
+                "brandAndProducts": [
+                  {
+                    "brand": {
+                      "id": "dpps"
+                    },
+                    "products": [
+                      {
+                        "id": "amenity.AM0CL2"
+                      }
+                    ]
+                  }
+                ],
+                "transactionId": "api-evdla604.delta.com-14507-121134-1",
+                "deviceType": null
+              },
+              "brandsAndProducts": {
+                "brands": [
+                  {
+                    "brandSuperHeader": {
+                      "text": "A NEW INTERNATIONAL CABIN",
+                      "hasMarkup": false
+                    },
+                    "fareRestrictionSection": {},
+                    "flexUpsellFullImage": {
+                      "height": "192px",
+                      "alt": "Flex Upsell Full Image",
+                      "src": "//qat3-content.delta.com/content/dam/delta-content-api/images/upsellHalfBannerImg_CKO.jpg",
+                      "sizes": "1200px",
+                      "width": "168px"
+                    },
+                    "mobileUpsellImage3": {
+                      "alt": "mobile-alt text",
+                      "type": "3x",
+                      "url": "//qat3-content.delta.com/content/path-to-3x.png"
+                    },
+                    "mobileUpsellImage2": {
+                      "alt": "mobile-alt text",
+                      "type": "3x",
+                      "url": "//qat3-content.delta.com/content/path-to-3x.png"
+                    },
+                    "mobileUpsellImage1": {
+                      "alt": "mobile-alt text",
+                      "type": "3x",
+                      "url": "//qat3-content.delta.com/content/path-to-3x.png"
+                    },
+                    "flexUpsellImage": {
+                      "height": "192px",
+                      "alt": "Flex Upsell Image",
+                      "src": "//qat3-content.delta.com/content/dam/delta-content-api/images/upsellHalfBannerImg_CKO.jpg",
+                      "sizes": "1200px",
+                      "width": "168px"
+                    },
+                    "skypriority": {
+                      "bannerUrl": "//qat3-content.delta.com/content/dam/delta-content-api/skypriority/skyPriority.png",
+                      "id": "AMG21X",
+                      "copy": {
+                        "text": "The Sky Priority travel experience is avialable to customers seated in Delta One, First or Business Class, our SkyMiles Diamond, Platinum, and Gold Medallion members.Sky Priority customer will enjoy: Faster check in: Access dedicated check in area at the airport to help you move through the process faster.Highest Boarding Priority: Boarding before Zone1 lets you secue the best overhead bins or take your seat at your leisure - the choice is yours Accelerated Security Clearance: Walk through expedited security line at select airports.Expedited baggage servie: Have your bags delivered first to the carousel so you can head home or to your next meeting with no delay.To learn more, visit delta.com/skpriority.",
+                        "hasMarkup": true
+                      },
+                      "title": {
+                        "text": "Skypriority",
+                        "hasMarkup": false
+                      },
+                      "displayBanner": false
+                    },
+                    "brandHeader": {
+                      "text": "Delta Premium Header1",
+                      "hasMarkup": false
+                    },
+                    "brandDescription": {
+                      "text": "Designed for long-haul flights, this debut cabin offers spacious seats and unique amenities on select international routes.",
+                      "hasMarkup": false
+                    },
+                    "upsellDescription": {
+                      "text": "Enjoy a wider seat, footrest and widest-in-class entertainment screens in Delta's newest international cabin.",
+                      "hasMarkup": false
+                    },
+                    "upsellConfirmation": {
+                      "text": "All passengers on this confirmation number will be upgraded at a price-per-passenger rate, including taxes and fees. If you haven't selected seats, they will be auto-assigned. Your previously assigned seats will remain until then.",
+                      "hasMarkup": false
+                    },
+                    "upsellImage1": {
+                      "height": "192px",
+                      "alt": "Upsell Image",
+                      "src": "//qat3-content.delta.com/content/dam/delta-content-api/images/upsellHalfBannerImg_CKO.jpg",
+                      "sizes": "1200px",
+                      "width": "168px",
+                      "srcset": [
+                        {
+                          "path": "//qat3-content.delta.com/path/to/image-160.png",
+                          "size": "160w"
+                        },
+                        {
+                          "path": "//qat3-content.delta.com/path/to/image-320.png",
+                          "size": "320w"
+                        },
+                        {
+                          "path": "//qat3-content.delta.com/path/to/image-640.png",
+                          "size": "640w"
+                        },
+                        {
+                          "path": "//qat3-content.delta.com/path/to/image-1280.png",
+                          "size": "1280w"
+                        }
+                      ]
+                    },
+                    "shortBrandSecondaryName": {
+                      "text": "Premium Select",
+                      "hasMarkup": false
+                    },
+                    "id": "DPPS",
+                    "supershortBrandName": {
+                      "text": "DL Prem",
+                      "hasMarkup": false
+                    },
+                    "lightBrandIconUrl": "//qat3-content.delta.com/path/to/image-light.png",
+                    "upsellImage3": {
+                      "height": "100px",
+                      "alt": "copy for accessibility",
+                      "src": "//qat3-content.delta.com/path/to/image.png",
+                      "sizes": "80vw",
+                      "width": "100px",
+                      "srcset": [
+                        {
+                          "path": "//qat3-content.delta.com/path/to/image-160.png",
+                          "size": "160w"
+                        },
+                        {
+                          "path": "//qat3-content.delta.com/path/to/image-320.png",
+                          "size": "320w"
+                        },
+                        {
+                          "path": "//qat3-content.delta.com/path/to/image-640.png",
+                          "size": "640w"
+                        },
+                        {
+                          "path": "//qat3-content.delta.com/path/to/image-1280.png",
+                          "size": "1280w"
+                        }
+                      ]
+                    },
+                    "upsellImage2": {
+                      "height": "100px",
+                      "alt": "copy for accessibility",
+                      "src": "//qat3-content.delta.com/path/to/image.png",
+                      "sizes": "80vw",
+                      "width": "100px",
+                      "srcset": [
+                        {
+                          "path": "//qat3-content.delta.com/path/to/image-160.png",
+                          "size": "160w"
+                        },
+                        {
+                          "path": "//qat3-content.delta.com/path/to/image-320.png",
+                          "size": "320w"
+                        },
+                        {
+                          "path": "//qat3-content.delta.com/path/to/image-640.png",
+                          "size": "640w"
+                        },
+                        {
+                          "path": "//qat3-content.delta.com/path/to/image-1280.png",
+                          "size": "1280w"
+                        }
+                      ]
+                    },
+                    "upsellPromoBullets": {
+                      "type": "bullets",
+                      "bullets": [
+                        {
+                          "id": "DPSupsell1",
+                          "text": "Wider seat with adjustable headrest footrest",
+                          "hasMarkup": false
+                        },
+                        {
+                          "id": "DPSupsell2",
+                          "text": "Meals plated on Alessi designer flatware",
+                          "hasMarkup": false
+                        },
+                        {
+                          "id": "DPSupsell3",
+                          "text": "Largest-in-class, up to 13.3 entertainment screen",
+                          "hasMarkup": false
+                        },
+                        {
+                          "id": "DPSupsell4",
+                          "text": "Dedicated in-cabin flight attendant",
+                          "hasMarkup": false
+                        },
+                        {
+                          "id": "DPSupsell5",
+                          "text": "Luxury blanket complimentary amenity kit",
+                          "hasMarkup": false
+                        }
+                      ]
+                    },
+                    "changeability": {
+                      "text": "changeability",
+                      "hasMarkup": false
+                    },
+                    "mobileUpsellFullImage2": {
+                      "alt": "Mobile Upsell Full Image2",
+                      "type": "3x",
+                      "url": "delta-content-api/components/content/mobile-image-attributes"
+                    },
+                    "darkBrandIconUrl": "//qat3-content.delta.com/path/to/image-dark.png",
+                    "mobileUpsellFullImage1": {
+                      "alt": "Mobile Upsell Full Image1",
+                      "type": "3x",
+                      "url": "delta-content-api/components/content/mobile-image-attributes"
+                    },
+                    "mobileUpsellFullImage3": {
+                      "alt": "Mobile Upsell Full Image3",
+                      "type": "3x",
+                      "url": "delta-content-api/components/content/mobile-image-attributes"
+                    },
+                    "fareSelectionSection": {},
+                    "upsellHeader": {
+                      "text": "Upgrade to Delta Premium Select",
+                      "hasMarkup": false
+                    },
+                    "upgradeWithMiles": "false",
+                    "brandSecondaryName": {
+                      "text": "Delta Premium Select",
+                      "hasMarkup": false
+                    },
+                    "mobileHeroImage": {
+                      "alt": "alt text"
+                    },
+                    "mediaExperience": {
+                      "description": {
+                        "text": "Media Experience description with place holder text destinations. Replace the place holder string in the UI",
+                        "hasMarkup": false
+                      },
+                      "header": {
+                        "text": "Media",
+                        "hasMarkup": false
+                      },
+                      "iconsrequired": "false",
+                      "disclaimer": {
+                        "text": "Disclaimer text",
+                        "hasMarkup": false
+                      },
+                      "iconUrl": "//qat3-content.delta.com/path/to/icon-sprite.png",
+                      "bulletPromos": {
+                        "type": "bullets",
+                        "bullets": [
+                          {
+                            "iconId": "wifi",
+                            "id": "AM0CL2",
+                            "text": "Wi-Fi Available",
+                            "hasMarkup": false,
+                            "mobileIconUrl": "//qat3-content.delta.com/content/path-to-mob-icon.png"
+                          },
+                          {
+                            "iconId": "usb",
+                            "id": "AM02QX",
+                            "text": "USB In-Seat Power",
+                            "hasMarkup": false,
+                            "mobileIconUrl": "//qat3-content.delta.com/content/path-to-mob-icon.png"
+                          },
+                          {
+                            "iconId": "screen",
+                            "id": "AM02OX",
+                            "text": "Up to 13.3 Seatback Entertainment Screen",
+                            "hasMarkup": false,
+                            "mobileIconUrl": "//qat3-content.delta.com/content/path-to-mob-icon.png"
+                          },
+                          {
+                            "iconId": "delta-studio",
+                            "id": "AM0B1X",
+                            "text": "Complimentary Delta Studio Access",
+                            "hasMarkup": false,
+                            "mobileIconUrl": "//qat3-content.delta.com/content/path-to-mob-icon.png"
+                          },
+                          {
+                            "iconId": "tv",
+                            "id": "AM02RX",
+                            "text": "18 Free Live Satellite TV Channels",
+                            "hasMarkup": false,
+                            "mobileIconUrl": "//qat3-content.delta.com/content/path-to-mob-icon.png"
+                          },
+                          {
+                            "iconId": "power",
+                            "id": "AM02PX",
+                            "text": "In-Seat Power Outlet",
+                            "hasMarkup": false,
+                            "mobileIconUrl": "//qat3-content.delta.com/content/path-to-mob-icon.png"
+                          },
+                          {
+                            "iconId": "headset",
+                            "id": "DPSHeadset",
+                            "text": "Complimentary Noise-Cancelling Headset",
+                            "hasMarkup": false,
+                            "mobileIconUrl": "//qat3-content.delta.com/content/path-to-mob-icon.png"
+                          }
+                        ]
+                      }
+                    },
+                    "axisProductId": "DPS",
+                    "brandIconId": "dp-icon-id",
+                    "shortBrandPrimaryName": {
+                      "text": "Premium Select",
+                      "hasMarkup": false
+                    },
+                    "interactiveSeatImage1": {
+                      "height": "544px",
+                      "alt": "Seat Image",
+                      "src": "//qat3-content.delta.comcontent/dam/delta-content-api/images/upsellModalSeatImg_CKO.jpg",
+                      "sizes": "1200vw",
+                      "width": "526px",
+                      "srcset": [
+                        {
+                          "path": "//qat3-content.delta.com/path/to/image-160.png",
+                          "size": "160w"
+                        },
+                        {
+                          "path": "//qat3-content.delta.com/path/to/image-320.png",
+                          "size": "320w"
+                        },
+                        {
+                          "path": "//qat3-content.delta.com/path/to/image-640.png",
+                          "size": "640w"
+                        },
+                        {
+                          "path": "//qat3-content.delta.com/path/to/image-1280.png",
+                          "size": "1280w"
+                        }
+                      ],
+                      "hotspot": [
+                        {
+                          "description": "Find an adjustable headrest and more supportive seatback",
+                          "id": "hotspot1",
+                          "title": "Support"
+                        },
+                        {
+                          "description": "Adjust the height of your armrest, so you can sit comfortably",
+                          "id": "hotspot2",
+                          "title": "Adjust"
+                        },
+                        {
+                          "description": "Find in-seat 110-volt outlets and USB ports",
+                          "id": "hotspot3",
+                          "title": "Power"
+                        },
+                        {
+                          "description": "Enjoy an adjustable footrest and a deeper recline",
+                          "id": "hotspot4",
+                          "title": "Recline"
+                        }
+                      ]
+                    },
+                    "mobileDarkBrandIconUrl": "//qat3-content.delta.com/path/to/image-dark.png",
+                    "heroImage": {
+                      "SkipAttributes": {
+                        "text": "hiddenValue",
+                        "hasMarkup": false
+                      },
+                      "hiddenValue": {
+                        "text": "hero",
+                        "hasMarkup": false
+                      },
+                      "images": [
+                        {
+                          "height": "500px",
+                          "imgUrl": "//qat3-content.delta.com/content/path-to-hero-img.png",
+                          "displayDefault": "y",
+                          "id": "temp1",
+                          "alt": "alt text",
+                          "width": "500px"
+                        },
+                        {
+                          "height": "600px",
+                          "imgUrl": "//qat3-content.delta.com/content/path-to-hero-img.png",
+                          "displayDefault": "n",
+                          "id": "temp2",
+                          "alt": "alt text",
+                          "width": "600px"
+                        }
+                      ]
+                    },
+                    "mobileMediaExpImage": {
+                      "alt": "alt text",
+                      "type": "3x",
+                      "url": "//qat3-content.delta.com/content/path-toimedia-img.png"
+                    },
+                    "products": {
+                      "amenity": [
+                        {
+                          "description": {
+                            "text": "Wi-Fi",
+                            "hasMarkup": true
+                          },
+                          "linkLabel": "Learn More",
+                          "tagLine": {
+                            "text": "In-flight Internet access available for purchase.",
+                            "hasMarkup": false
+                          },
+                          "header": {
+                            "text": "Wi-Fi",
+                            "hasMarkup": false
+                          },
+                          "id": "AM0CL2",
+                          "mobileDarkProductIconUrl": "/content/to/mobile_dark_brand_url",
+                          "link": "/content/www/en_US/traveling-with-us/onboard-experience/delta-studio/in-flight-wi-fi.html",
+                          "disclaimer": {
+                            "text": "In-Flight services and amenities may vary and are subject to change. Available globally where coverage exists. Requires payment by credit card for activation.",
+                            "hasMarkup": false
+                          },
+                          "productIconId": "wif",
+                          "lightProductIconUrl": "//qat3-content.delta.com/content/dam/delta-content-api/sprites/light_sprites.png",
+                          "iataDescription": {
+                            "text": "Internet Access",
+                            "hasMarkup": false
+                          },
+                          "darkProductIconUrl": "//qat3-content.delta.com/content/dam/delta-content-api/sprites/dark_sprites.png",
+                          "image": {},
+                          "mobileImage": {
+                            "alt": "mobile-alt text",
+                            "type": "3x",
+                            "url": "//qat3-content.delta.com/content/path-to-3x.png"
+                          }
+                        }
+                      ]
+                    },
+                    "upsellFullImage3": {
+                      "height": "192px",
+                      "alt": "Upsell Full Image3",
+                      "src": "//qat3-content.delta.com/content/dam/delta-content-api/images/upsellHalfBannerImg_CKO.jpg",
+                      "sizes": "1200px",
+                      "width": "168px"
+                    },
+                    "mobileInteractiveSeatImage1": {
+                      "alt": "mobile-alt text",
+                      "type": "3x",
+                      "url": "//qat3-content.delta.com/content/path-to-3x.png"
+                    },
+                    "brandPrimaryName": {
+                      "text": "Delta Premium Select",
+                      "hasMarkup": false
+                    },
+                    "mobileFlexUpsellImage": {
+                      "alt": "Mobile Flex Upsell Image",
+                      "type": "3x",
+                      "url": "mobile-image-attributes"
+                    },
+                    "mobileLightBrandIconUrl": "//qat3-content.delta.com/path/to/image-light.png",
+                    "shortBrandHeader": {
+                      "text": "Delta Premium Short Header",
+                      "hasMarkup": false
+                    },
+                    "upsellFullImage1": {
+                      "height": "192px",
+                      "alt": "Upsell Full Image1",
+                      "src": "//qat3-content.delta.com/content/dam/delta-content-api/images/upsellHalfBannerImg_CKO.jpg",
+                      "sizes": "1200px",
+                      "width": "168px"
+                    },
+                    "upsellFullImage2": {
+                      "height": "192px",
+                      "alt": "Upsell Full Image 2",
+                      "src": "//qat3-content.delta.com/content/dam/delta-content-api/images/upsellHalfBannerImg_CKO.jpg",
+                      "sizes": "1200px",
+                      "width": "168px"
+                    },
+                    "mobileFlexModalImage": {
+                      "alt": "Mobile Modal Image",
+                      "type": "3x",
+                      "url": "//qat3-content.delta.com/content/dam/delta-content-api/images/upsellHalfBannerImg_CKO.jpg"
+                    },
+                    "termsandconditions": {
+                      "header": {
+                        "text": "Terms and Conditions",
+                        "hasMarkup": true
+                      },
+                      "tandc": {
+                        "text": "All content on this Internet site is owned or controlled by Delta Air Lines and is protected by worldwide copyright laws. You may download content only for your personal use for non-commercial purposes, but no further reproduction or modification of the content is permitted. The products, technology or processes described in this site may be the subject of other intellectual property rights reserved by Delta Air Lines or other third parties. No license is granted with respect to those intellectual property rights.",
+                        "hasMarkup": false
+                      }
+                    },
+                    "refundability": {
+                      "text": "refundability",
+                      "hasMarkup": false
+                    },
+                    "upsellSuperHeader": {
+                      "text": "A NEW INTERNATIONAL CABIN",
+                      "hasMarkup": false
+                    },
+                    "flexModalImage": {
+                      "height": "192px",
+                      "alt": "Modal Image",
+                      "src": "//qat3-content.delta.com/content/dam/delta-content-api/images/upsellHalfBannerImg_CKO.jpg",
+                      "sizes": "1200px",
+                      "width": "168px"
+                    },
+                    "upsellDisclaimer": {
+                      "text": "Enjoy a wider seat, footrest and widest-in-class entertainment screens in Delta's newest international cabin.",
+                      "hasMarkup": false
+                    },
+                    "upsellLinkLabel": {
+                      "displayLabel": "See Details",
+                      "display": "true"
+                    },
+                    "flexPromo": {
+                      "header": {
+                        "text": "FLEXIBILITY?",
+                        "hasMarkup": true
+                      },
+                      "superHeader": {
+                        "text": "Need",
+                        "hasMarkup": false
+                      },
+                      "bulletPromos": {
+                        "type": "bullets",
+                        "bullets": [
+                          {
+                            "displayDefault": "n",
+                            "text": "Bullet Item 1",
+                            "hasMarkup": false
+                          },
+                          {
+                            "displayDefault": "n",
+                            "text": "Bullet Item 2",
+                            "hasMarkup": false
+                          },
+                          {
+                            "displayDefault": "n",
+                            "text": "Bullet Item 3",
+                            "hasMarkup": false
+                          },
+                          {
+                            "displayDefault": "n",
+                            "text": "Bullet Item4",
+                            "hasMarkup": false
+                          }
+                        ]
+                      }
+                    },
+                    "mobileFlexUpsellFullImage": {
+                      "alt": "Mobile Flex Upsell Full Image",
+                      "type": "3x",
+                      "url": "mobile-image-attributes"
+                    },
+                    "mediaExpImage": {
+                      "SkipAttributes": {
+                        "text": "hiddenValue",
+                        "hasMarkup": false
+                      },
+                      "hiddenValue": {
+                        "text": "hero",
+                        "hasMarkup": false
+                      },
+                      "images": [
+                        {
+                          "height": "500px",
+                          "imgUrl": "//qat3-content.delta.com/content/path-toimedia-img.png",
+                          "displayDefault": "y",
+                          "id": "temp1",
+                          "alt": "alt text",
+                          "width": "500px"
+                        },
+                        {
+                          "height": "600px",
+                          "imgUrl": "//qat3-content.delta.com/content/path-toimedia-img.png",
+                          "displayDefault": "n",
+                          "id": "temp2",
+                          "alt": "alt text",
+                          "width": "600px"
+                        }
+                      ]
+                    },
+                    "shortBrandDescription": {
+                      "text": "SELECT LONG-HAUL INTERNATIONAL",
+                      "hasMarkup": false
+                    }
+                  }
+                ]
+              },
+              "transactionId": "api-evdla604.delta.com-14507-121134-1"
+            }
+        

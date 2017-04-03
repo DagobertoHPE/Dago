@@ -1,0 +1,754 @@
+Virtual User Script started at : 3/31/2017 1:00:36 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.53.0 for Windows 7; build 1203 (Mar 31 2017 19:13:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Projects\2017\HPTicket\02_API_TripSummary_Web\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "C:\Projects\2017\HPTicket\02_API_TripSummary_Web"  	[MsgId: MMSG-27052]
+Vuser output directory: "C:\Projects\2017\HPTicket\02_API_TripSummary_Web"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "c:\projects\2017\hpticket\02_api_tripsummary_web"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2017-03-31 18:00:36  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2017-03-31 13:00:36  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : Yes  	[MsgId: MMSG-26990]
+Some of the Run-Time Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-27171]
+    DNS caching: No  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: text/xml;text/plain  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 120  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: No  	[MsgId: MMSG-27028]
+    Enable Web Page Breakdown: Yes  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: No  	[MsgId: MMSG-26998]
+    Graph response bytes per second: No  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 8  	[MsgId: MMSG-26995]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(3): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(3): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
+Action.c(3): "Authorization: Bearer OAktR6HqsAS5vPjbGO728SlA6C3A" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(3): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(5): Notify: Transaction "02_TripSummary" started.
+Action.c(7): web_custom_request("tripSummary") started  	[MsgId: MMSG-26355]
+Action.c(7): Warning: The string '"id": "dpps"' with parameter delimiters is not a parameter.
+Action.c(7): Warning: The string '"id":"amenity.AM0CL2"' with parameter delimiters is not a parameter.
+Action.c(7): t=941ms: Connecting [0] to host 147.118.248.147:80  	[MsgId: MMSG-26000]
+Action.c(7): t=943ms: Connected socket [0] from 139.72.240.129:20748 to 147.118.248.147:80 in 1 ms  	[MsgId: MMSG-26000]
+Action.c(7): t=943ms: 491-byte request headers for "http://stage-pvt-apigateway.delta.com/v1/contents/baseline/brands/products?pageId=trip-summary" (RelFrameId=1, Internal ID=1)
+Action.c(7):     POST /v1/contents/baseline/brands/products?pageId=trip-summary HTTP/1.1\r\n
+Action.c(7):     Authorization: Bearer OAktR6HqsAS5vPjbGO728SlA6C3A\r\n
+Action.c(7):     Content-Type: application/x-www-form-urlencoded\r\n
+Action.c(7):     Cache-Control: no-cache\r\n
+Action.c(7):     Referer: http://stage-pvt-apigateway.delta.com/v1/contents/baseline/brands/products\r\n
+Action.c(7):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(7):     Accept-Encoding: gzip, deflate\r\n
+Action.c(7):     Accept: */*\r\n
+Action.c(7):     Connection: Keep-Alive\r\n
+Action.c(7):     Host: stage-pvt-apigateway.delta.com\r\n
+Action.c(7):     Content-Length: 89\r\n
+Action.c(7):     \r\n
+Action.c(7): t=951ms: 89-byte request body for "http://stage-pvt-apigateway.delta.com/v1/contents/baseline/brands/products?pageId=trip-summary" (RelFrameId=1, Internal ID=1)
+Action.c(7):     {  "brandAndProducts": \t[{"brand": {"id": "dpps"},"products": {"id":"amenity.AM0CL2"}] }}
+Action.c(7): t=1226ms: 613-byte response headers for "http://stage-pvt-apigateway.delta.com/v1/contents/baseline/brands/products?pageId=trip-summary" (RelFrameId=1, Internal ID=1)
+Action.c(7):     HTTP/1.1 200 OK\r\n
+Action.c(7):     Date: Fri, 31 Mar 2017 18:00:37 GMT\r\n
+Action.c(7):     Content-Type: application/json\r\n
+Action.c(7):     Content-Length: 27935\r\n
+Action.c(7):     Connection: keep-alive\r\n
+Action.c(7):     Host: stage-pvt-apigateway.delta.com\r\n
+Action.c(7):     X-Forwarded-For: 139.72.240.129, 147.118.248.9\r\n
+Action.c(7):     X-Forwarded-Port: 9001\r\n
+Action.c(7):     X-Forwarded-Proto: http\r\n
+Action.c(7):     Cache-Control: no-cache\r\n
+Action.c(7):     Referer: http://stage-pvt-apigateway.delta.com/v1/contents/baseline/brands/products\r\n
+Action.c(7):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(7):     Accept-Encoding: gzip, deflate\r\n
+Action.c(7):     Accept: */*\r\n
+Action.c(7):     TransactionId: api-evila684.delta.com-46475-40033-1\r\n
+Action.c(7):     DeveloperAppName: MBTestAppStage\r\n
+Action.c(7):     Server: Apigee Router\r\n
+Action.c(7):     \r\n
+Action.c(7): t=1238ms: 847-byte response body for "http://stage-pvt-apigateway.delta.com/v1/contents/baseline/brands/products?pageId=trip-summary" (RelFrameId=1, Internal ID=1)
+Action.c(7):     \n
+Action.c(7):              {\n
+Action.c(7):                   "errors": null,\n
+Action.c(7):                   "originalRequest": {\n
+Action.c(7):                     "channelId": "ecomm",\n
+Action.c(7):                     "appId": "my-trips",\n
+Action.c(7):                     "pageId": "trip-summary",\n
+Action.c(7):                     "brandAndProducts": [\n
+Action.c(7):                       {\n
+Action.c(7):                         "brand": {\n
+Action.c(7):                           "id": "dpps"\n
+Action.c(7):                         },\n
+Action.c(7):                         "products": [\n
+Action.c(7):                           {\n
+Action.c(7):                             "id": "amenity.AM0CL2"\n
+Action.c(7):                           }\n
+Action.c(7):                         ]\n
+Action.c(7):                       }\n
+Action.c(7):                     ],\n
+Action.c(7):                     "transactionId": "api-evdla604.delta.com-14507-121134-1",\n
+Action.c(7):                     "deviceType": null\n
+Action.c(7):                   },\n
+Action.c(7):                   "brandsAndProducts": {\n
+Action.c(7):                     "brands": [\n
+Action.c(7):                       {\n
+Action.c(7):                         "brandSuperHeader": {\n
+Action.c(7):                           "text": "A NEW INTERNATIONAL CABIN",\n
+Action.c(7):         
+Action.c(7): t=1243ms: 8760-byte response body for "http://stage-pvt-apigateway.delta.com/v1/contents/baseline/brands/products?pageId=trip-summary" (RelFrameId=1, Internal ID=1)
+Action.c(7):                       "hasMarkup": false\n
+Action.c(7):                         },\n
+Action.c(7):                         "fareRestrictionSection": {},\n
+Action.c(7):                         "flexUpsellFullImage": {\n
+Action.c(7):                           "height": "192px",\n
+Action.c(7):                           "alt": "Flex Upsell Full Image",\n
+Action.c(7):                           "src": "//qat3-content.delta.com/content/dam/delta-content-api/image
+Action.c(7):     s/upsellHalfBannerImg_CKO.jpg",\n
+Action.c(7):                           "sizes": "1200px",\n
+Action.c(7):                           "width": "168px"\n
+Action.c(7):                         },\n
+Action.c(7):                         "mobileUpsellImage3": {\n
+Action.c(7):                           "alt": "mobile-alt text",\n
+Action.c(7):                           "type": "3x",\n
+Action.c(7):                           "url": "//qat3-content.delta.com/content/path-to-3x.png"\n
+Action.c(7):                         },\n
+Action.c(7):                         "mobileUpsellImage2": {\n
+Action.c(7):                           "alt": "mobile-alt text",\n
+Action.c(7):                           "type": "3x",\n
+Action.c(7):                           "url": "//qat3-content.delta.com/content/path-to-3x.png"\n
+Action.c(7):                         },\n
+Action.c(7):                         "mobileUpsellImage1": {\n
+Action.c(7):                           "alt": "mobile-alt text",\n
+Action.c(7):                           "type": "3x",\n
+Action.c(7):                           "url": "//qat3-content.delta.com/content/path-to-3x.png"\n
+Action.c(7):                         },\n
+Action.c(7):                         "flexUpsellImage": {\n
+Action.c(7):                           "height": "192px",\n
+Action.c(7):                           "alt": "Flex Upsell Image",\n
+Action.c(7):                           "src": "//qat3-content.delta.com/content/dam/delta-content-api/image
+Action.c(7):     s/upsellHalfBannerImg_CKO.jpg",\n
+Action.c(7):                           "sizes": "1200px",\n
+Action.c(7):                           "width": "168px"\n
+Action.c(7):                         },\n
+Action.c(7):                         "skypriority": {\n
+Action.c(7):                           "bannerUrl": "//qat3-content.delta.com/content/dam/delta-content-api
+Action.c(7):     /skypriority/skyPriority.png",\n
+Action.c(7):                           "id": "AMG21X",\n
+Action.c(7):                           "copy": {\n
+Action.c(7):                             "text": "The Sky Priority travel experience is avialable to custom
+Action.c(7):     ers seated in Delta One, First or Business Class, our SkyMiles Diamond, Platinum, and Gold
+Action.c(7):      Medallion members.Sky Priority customer will enjoy: Faster check in: Access dedicated che
+Action.c(7):     ck in area at the airport to help you move through the process faster.Highest Boarding Pri
+Action.c(7):     ority: Boarding before Zone1 lets you secue the best overhead bins or take your seat at yo
+Action.c(7):     ur leisure - the choice is yours Accelerated Security Clearance: Walk through expedited se
+Action.c(7):     curity line at select airports.Expedited baggage servie: Have your bags delivered first to
+Action.c(7):      the carousel so you can head home or to your next meeting with no delay.To learn more, vi
+Action.c(7):     sit delta.com/skpriority.",\n
+Action.c(7):                             "hasMarkup": true\n
+Action.c(7):                           },\n
+Action.c(7):                           "title": {\n
+Action.c(7):                             "text": "Skypriority",\n
+Action.c(7):                             "hasMarkup": false\n
+Action.c(7):                           },\n
+Action.c(7):                           "displayBanner": false\n
+Action.c(7):                         },\n
+Action.c(7):                         "brandHeader": {\n
+Action.c(7):                           "text": "Delta Premium Header1",\n
+Action.c(7):                           "hasMarkup": false\n
+Action.c(7):                         },\n
+Action.c(7):                         "brandDescription": {\n
+Action.c(7):                           "text": "Designed for long-haul flights, this debut cabin offers spa
+Action.c(7):     cious seats and unique amenities on select international routes.",\n
+Action.c(7):                           "hasMarkup": false\n
+Action.c(7):                         },\n
+Action.c(7):                         "upsellDescription": {\n
+Action.c(7):                           "text": "Enjoy a wider seat, footrest and widest-in-class entertainm
+Action.c(7):     ent screens in Delta's newest international cabin.",\n
+Action.c(7):                           "hasMarkup": false\n
+Action.c(7):                         },\n
+Action.c(7):                         "upsellConfirmation": {\n
+Action.c(7):                           "text": "All passengers on this confirmation number will be upgraded
+Action.c(7):      at a price-per-passenger rate, including taxes and fees. If you haven't selected seats, t
+Action.c(7):     hey will be auto-assigned. Your previously assigned seats will remain until then.",\n
+Action.c(7):                           "hasMarkup": false\n
+Action.c(7):                         },\n
+Action.c(7):                         "upsellImage1": {\n
+Action.c(7):                           "height": "192px",\n
+Action.c(7):                           "alt": "Upsell Image",\n
+Action.c(7):                           "src": "//qat3-content.delta.com/content/dam/delta-content-api/image
+Action.c(7):     s/upsellHalfBannerImg_CKO.jpg",\n
+Action.c(7):                           "sizes": "1200px",\n
+Action.c(7):                           "width": "168px",\n
+Action.c(7):                           "srcset": [\n
+Action.c(7):                             {\n
+Action.c(7):                               "path": "//qat3-content.delta.com/path/to/image-160.png",\n
+Action.c(7):                               "size": "160w"\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "path": "//qat3-content.delta.com/path/to/image-320.png",\n
+Action.c(7):                               "size": "320w"\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "path": "//qat3-content.delta.com/path/to/image-640.png",\n
+Action.c(7):                               "size": "640w"\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "path": "//qat3-content.delta.com/path/to/image-1280.png",\n
+Action.c(7):                               "size": "1280w"\n
+Action.c(7):                             }\n
+Action.c(7):                           ]\n
+Action.c(7):                         },\n
+Action.c(7):                         "shortBrandSecondaryName": {\n
+Action.c(7):                           "text": "Premium Select",\n
+Action.c(7):                           "hasMarkup": false\n
+Action.c(7):                         },\n
+Action.c(7):                         "id": "DPPS",\n
+Action.c(7):                         "supershortBrandName": {\n
+Action.c(7):                           "text": "DL Prem",\n
+Action.c(7):                           "hasMarkup": false\n
+Action.c(7):                         },\n
+Action.c(7):                         "lightBrandIconUrl": "//qat3-content.delta.com/path/to/image-light.png
+Action.c(7):     ",\n
+Action.c(7):                         "upsellImage3": {\n
+Action.c(7):                           "height": "100px",\n
+Action.c(7):                           "alt": "copy for accessibility",\n
+Action.c(7):                           "src": "//qat3-content.delta.com/path/to/image.png",\n
+Action.c(7):                           "sizes": "80vw",\n
+Action.c(7):                           "width": "100px",\n
+Action.c(7):                           "srcset": [\n
+Action.c(7):                             {\n
+Action.c(7):                               "path": "//qat3-content.delta.com/path/to/image-160.png",\n
+Action.c(7):                               "size": "160w"\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "path": "//qat3-content.delta.com/path/to/image-320.png",\n
+Action.c(7):                               "size": "320w"\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "path": "//qat3-content.delta.com/path/to/image-640.png",\n
+Action.c(7):                               "size": "640w"\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "path": "//qat3-content.delta.com/path/to/image-1280.png",\n
+Action.c(7):                               "size": "1280w"\n
+Action.c(7):                             }\n
+Action.c(7):                           ]\n
+Action.c(7):                         },\n
+Action.c(7):                         "upsellImage2": {\n
+Action.c(7):                           "height": "100px",\n
+Action.c(7):                           "alt": "copy for accessibility",\n
+Action.c(7):                           "src": "//qat3-content.delta.com/path/to/image.png",\n
+Action.c(7):                           "sizes": "80vw",\n
+Action.c(7):                           "width": "100px",\n
+Action.c(7):                           "srcset": [\n
+Action.c(7):                             {\n
+Action.c(7):                               "path": "//qat3-content.delta.com/path/to/image-160.png",\n
+Action.c(7):                               "size": "160w"\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "path": "//qat3-content.delta.com/path/to/image-320.png",\n
+Action.c(7):                               "size": "320w"\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "path": "//qat3-content.delta.com/path/to/image-640.png",\n
+Action.c(7):                               "size": "640w"\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "path": "//qat3-content.delta.com/path/to/image-1280.png",\n
+Action.c(7):                               "size": "1280w"\n
+Action.c(7):                             }\n
+Action.c(7):                           ]\n
+Action.c(7):                         },\n
+Action.c(7):                         "upsellPromoBullets": {\n
+Action.c(7):                           "type": "bullets",\n
+Action.c(7):                           "bullets": [\n
+Action.c(7):                             {\n
+Action.c(7):                               "id": "DPSupsell1",\n
+Action.c(7):                               "text": "Wider seat with adjustable headrest footrest",\n
+Action.c(7):                               "hasMarkup": false\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "id": "DPSupsell2",\n
+Action.c(7):                               "text": "Meals plated on Alessi designer flatware",\n
+Action.c(7):                               "hasMarkup": false\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "id": "DPSupsell3",\n
+Action.c(7):                               "text": "Largest-in-class, up to 13.3 entertainment screen",\n
+Action.c(7):                               "hasMarkup": false\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "id": "DPSupsell4",\n
+Action.c(7):                               "text": "Dedicated in-cabin flight attendant",\n
+Action.c(7):                               "hasMarkup": false\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "id": "DPSupsell5",\n
+Action.c(7):                               "text": "Luxury blanket complimentary amenity kit",\n
+Action.c(7):                               "hasMarkup": false\n
+Action.c(7):        
+Action.c(7): t=1270ms: 11680-byte response body for "http://stage-pvt-apigateway.delta.com/v1/contents/baseline/brands/products?pageId=trip-summary" (RelFrameId=1, Internal ID=1)
+Action.c(7):                          }\n
+Action.c(7):                           ]\n
+Action.c(7):                         },\n
+Action.c(7):                         "changeability": {\n
+Action.c(7):                           "text": "changeability",\n
+Action.c(7):                           "hasMarkup": false\n
+Action.c(7):                         },\n
+Action.c(7):                         "mobileUpsellFullImage2": {\n
+Action.c(7):                           "alt": "Mobile Upsell Full Image2",\n
+Action.c(7):                           "type": "3x",\n
+Action.c(7):                           "url": "delta-content-api/components/content/mobile-image-attributes
+Action.c(7):     "\n
+Action.c(7):                         },\n
+Action.c(7):                         "darkBrandIconUrl": "//qat3-content.delta.com/path/to/image-dark.png",
+Action.c(7):     \n
+Action.c(7):                         "mobileUpsellFullImage1": {\n
+Action.c(7):                           "alt": "Mobile Upsell Full Image1",\n
+Action.c(7):                           "type": "3x",\n
+Action.c(7):                           "url": "delta-content-api/components/content/mobile-image-attributes
+Action.c(7):     "\n
+Action.c(7):                         },\n
+Action.c(7):                         "mobileUpsellFullImage3": {\n
+Action.c(7):                           "alt": "Mobile Upsell Full Image3",\n
+Action.c(7):                           "type": "3x",\n
+Action.c(7):                           "url": "delta-content-api/components/content/mobile-image-attributes
+Action.c(7):     "\n
+Action.c(7):                         },\n
+Action.c(7):                         "fareSelectionSection": {},\n
+Action.c(7):                         "upsellHeader": {\n
+Action.c(7):                           "text": "Upgrade to Delta Premium Select",\n
+Action.c(7):                           "hasMarkup": false\n
+Action.c(7):                         },\n
+Action.c(7):                         "upgradeWithMiles": "false",\n
+Action.c(7):                         "brandSecondaryName": {\n
+Action.c(7):                           "text": "Delta Premium Select",\n
+Action.c(7):                           "hasMarkup": false\n
+Action.c(7):                         },\n
+Action.c(7):                         "mobileHeroImage": {\n
+Action.c(7):                           "alt": "alt text"\n
+Action.c(7):                         },\n
+Action.c(7):                         "mediaExperience": {\n
+Action.c(7):                           "description": {\n
+Action.c(7):                             "text": "Media Experience description with place holder text desti
+Action.c(7):     nations. Replace the place holder string in the UI",\n
+Action.c(7):                             "hasMarkup": false\n
+Action.c(7):                           },\n
+Action.c(7):                           "header": {\n
+Action.c(7):                             "text": "Media",\n
+Action.c(7):                             "hasMarkup": false\n
+Action.c(7):                           },\n
+Action.c(7):                           "iconsrequired": "false",\n
+Action.c(7):                           "disclaimer": {\n
+Action.c(7):                             "text": "Disclaimer text",\n
+Action.c(7):                             "hasMarkup": false\n
+Action.c(7):                           },\n
+Action.c(7):                           "iconUrl": "//qat3-content.delta.com/path/to/icon-sprite.png",\n
+Action.c(7):                           "bulletPromos": {\n
+Action.c(7):                             "type": "bullets",\n
+Action.c(7):                             "bullets": [\n
+Action.c(7):                               {\n
+Action.c(7):                                 "iconId": "wifi",\n
+Action.c(7):                                 "id": "AM0CL2",\n
+Action.c(7):                                 "text": "Wi-Fi Available",\n
+Action.c(7):                                 "hasMarkup": false,\n
+Action.c(7):                                 "mobileIconUrl": "//qat3-content.delta.com/content/path-to-mob
+Action.c(7):     -icon.png"\n
+Action.c(7):                               },\n
+Action.c(7):                               {\n
+Action.c(7):                                 "iconId": "usb",\n
+Action.c(7):                                 "id": "AM02QX",\n
+Action.c(7):                                 "text": "USB In-Seat Power",\n
+Action.c(7):                                 "hasMarkup": false,\n
+Action.c(7):                                 "mobileIconUrl": "//qat3-content.delta.com/content/path-to-mob
+Action.c(7):     -icon.png"\n
+Action.c(7):                               },\n
+Action.c(7):                               {\n
+Action.c(7):                                 "iconId": "screen",\n
+Action.c(7):                                 "id": "AM02OX",\n
+Action.c(7):                                 "text": "Up to 13.3 Seatback Entertainment Screen",\n
+Action.c(7):                                 "hasMarkup": false,\n
+Action.c(7):                                 "mobileIconUrl": "//qat3-content.delta.com/content/path-to-mob
+Action.c(7):     -icon.png"\n
+Action.c(7):                               },\n
+Action.c(7):                               {\n
+Action.c(7):                                 "iconId": "delta-studio",\n
+Action.c(7):                                 "id": "AM0B1X",\n
+Action.c(7):                                 "text": "Complimentary Delta Studio Access",\n
+Action.c(7):                                 "hasMarkup": false,\n
+Action.c(7):                                 "mobileIconUrl": "//qat3-content.delta.com/content/path-to-mob
+Action.c(7):     -icon.png"\n
+Action.c(7):                               },\n
+Action.c(7):                               {\n
+Action.c(7):                                 "iconId": "tv",\n
+Action.c(7):                                 "id": "AM02RX",\n
+Action.c(7):                                 "text": "18 Free Live Satellite TV Channels",\n
+Action.c(7):                                 "hasMarkup": false,\n
+Action.c(7):                                 "mobileIconUrl": "//qat3-content.delta.com/content/path-to-mob
+Action.c(7):     -icon.png"\n
+Action.c(7):                               },\n
+Action.c(7):                               {\n
+Action.c(7):                                 "iconId": "power",\n
+Action.c(7):                                 "id": "AM02PX",\n
+Action.c(7):                                 "text": "In-Seat Power Outlet",\n
+Action.c(7):                                 "hasMarkup": false,\n
+Action.c(7):                                 "mobileIconUrl": "//qat3-content.delta.com/content/path-to-mob
+Action.c(7):     -icon.png"\n
+Action.c(7):                               },\n
+Action.c(7):                               {\n
+Action.c(7):                                 "iconId": "headset",\n
+Action.c(7):                                 "id": "DPSHeadset",\n
+Action.c(7):                                 "text": "Complimentary Noise-Cancelling Headset",\n
+Action.c(7):                                 "hasMarkup": false,\n
+Action.c(7):                                 "mobileIconUrl": "//qat3-content.delta.com/content/path-to-mob
+Action.c(7):     -icon.png"\n
+Action.c(7):                               }\n
+Action.c(7):                             ]\n
+Action.c(7):                           }\n
+Action.c(7):                         },\n
+Action.c(7):                         "axisProductId": "DPS",\n
+Action.c(7):                         "brandIconId": "dp-icon-id",\n
+Action.c(7):                         "shortBrandPrimaryName": {\n
+Action.c(7):                           "text": "Premium Select",\n
+Action.c(7):                           "hasMarkup": false\n
+Action.c(7):                         },\n
+Action.c(7):                         "interactiveSeatImage1": {\n
+Action.c(7):                           "height": "544px",\n
+Action.c(7):                           "alt": "Seat Image",\n
+Action.c(7):                           "src": "//qat3-content.delta.comcontent/dam/delta-content-api/images
+Action.c(7):     /upsellModalSeatImg_CKO.jpg",\n
+Action.c(7):                           "sizes": "1200vw",\n
+Action.c(7):                           "width": "526px",\n
+Action.c(7):                           "srcset": [\n
+Action.c(7):                             {\n
+Action.c(7):                               "path": "//qat3-content.delta.com/path/to/image-160.png",\n
+Action.c(7):                               "size": "160w"\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "path": "//qat3-content.delta.com/path/to/image-320.png",\n
+Action.c(7):                               "size": "320w"\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "path": "//qat3-content.delta.com/path/to/image-640.png",\n
+Action.c(7):                               "size": "640w"\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "path": "//qat3-content.delta.com/path/to/image-1280.png",\n
+Action.c(7):                               "size": "1280w"\n
+Action.c(7):                             }\n
+Action.c(7):                           ],\n
+Action.c(7):                           "hotspot": [\n
+Action.c(7):                             {\n
+Action.c(7):                               "description": "Find an adjustable headrest and more supportive 
+Action.c(7):     seatback",\n
+Action.c(7):                               "id": "hotspot1",\n
+Action.c(7):                               "title": "Support"\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "description": "Adjust the height of your armrest, so you can si
+Action.c(7):     t comfortably",\n
+Action.c(7):                               "id": "hotspot2",\n
+Action.c(7):                               "title": "Adjust"\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "description": "Find in-seat 110-volt outlets and USB ports",\n
+Action.c(7):                               "id": "hotspot3",\n
+Action.c(7):                               "title": "Power"\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "description": "Enjoy an adjustable footrest and a deeper reclin
+Action.c(7):     e",\n
+Action.c(7):                               "id": "hotspot4",\n
+Action.c(7):                               "title": "Recline"\n
+Action.c(7):                             }\n
+Action.c(7):                           ]\n
+Action.c(7):                         },\n
+Action.c(7):                         "mobileDarkBrandIconUrl": "//qat3-content.delta.com/path/to/image-dark
+Action.c(7):     .png",\n
+Action.c(7):                         "heroImage": {\n
+Action.c(7):                           "SkipAttributes": {\n
+Action.c(7):                             "text": "hiddenValue",\n
+Action.c(7):                             "hasMarkup": false\n
+Action.c(7):                           },\n
+Action.c(7):                           "hiddenValue": {\n
+Action.c(7):                             "text": "hero",\n
+Action.c(7):                             "hasMarkup": false\n
+Action.c(7):                           },\n
+Action.c(7):                           "images": [\n
+Action.c(7):                             {\n
+Action.c(7):                               "height": "500px",\n
+Action.c(7):                               "imgUrl": "//qat3-content.delta.com/content/path-to-hero-img.png
+Action.c(7):     ",\n
+Action.c(7):                               "displayDefault": "y",\n
+Action.c(7):                               "id": "temp1",\n
+Action.c(7):                               "alt": "alt text",\n
+Action.c(7):                               "width": "500px"\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "height": "600px",\n
+Action.c(7):                               "imgUrl": "//qat3-content.delta.com/content/path-to-hero-img.png
+Action.c(7):     ",\n
+Action.c(7):                               "displayDefault": "n",\n
+Action.c(7):                               "id": "temp2",\n
+Action.c(7):                               "alt": "alt text",\n
+Action.c(7):                               "width": "600px"\n
+Action.c(7):                             }\n
+Action.c(7):                           ]\n
+Action.c(7):                         },\n
+Action.c(7):                         "mobileMediaExpImage": {\n
+Action.c(7):                           "alt": "alt text",\n
+Action.c(7):                           "type": "3x",\n
+Action.c(7):                           "url": "//qat3-content.delta.com/content/path-toimedia-img.png"\n
+Action.c(7):                         },\n
+Action.c(7):                         "products": {\n
+Action.c(7):                           "amenity": [\n
+Action.c(7):                             {\n
+Action.c(7):                               "description": {\n
+Action.c(7):                                 "text": "Wi-Fi",\n
+Action.c(7):                                 "hasMarkup": true\n
+Action.c(7):                               },\n
+Action.c(7):                               "linkLabel": "Learn More",\n
+Action.c(7):                               "tagLine": {\n
+Action.c(7):                                 "text": "In-flight Internet access available for purchase.",\n
+Action.c(7):                                 "hasMarkup": false\n
+Action.c(7):                               },\n
+Action.c(7):                               "header": {\n
+Action.c(7):                                 "text": "Wi-Fi",\n
+Action.c(7):                                 "hasMarkup": false\n
+Action.c(7):                               },\n
+Action.c(7):                               "id": "AM0CL2",\n
+Action.c(7):                               "mobileDarkProductIconUrl": "/content/to/mobile_dark_brand_url",
+Action.c(7):     \n
+Action.c(7):                               "link": "/content/www/en_US/traveling-with-us/onboard-experience
+Action.c(7):     /delta-studio/in-flight-wi-fi.html",\n
+Action.c(7):                               "disclaimer": {\n
+Action.c(7):                                 "text": "In-Flight services and amenities may vary and are sub
+Action.c(7):     ject to change. Available globally where coverage exists. Requires payment by credit card 
+Action.c(7):     for activation.",\n
+Action.c(7):                                 "hasMarkup": false\n
+Action.c(7):                               },\n
+Action.c(7):                               "productIconId": "wif",\n
+Action.c(7):                               "lightProductIconUrl": "//qat3-content.delta.com/content/dam/del
+Action.c(7):     ta-content-api/sprites/light_sprites.png",\n
+Action.c(7):                               "iataDescription": {\n
+Action.c(7):                                 "text": "Internet Access",\n
+Action.c(7):                                 "hasMarkup": false\n
+Action.c(7):                               },\n
+Action.c(7):                               "darkProductIconUrl": "//qat3-content.delta.com/content/dam/delt
+Action.c(7):     a-content-api/sprites/dark_sprites.png",\n
+Action.c(7):                               "image": {},\n
+Action.c(7):                               "mobileImage": {\n
+Action.c(7):                                 "alt": "mobile-alt text",\n
+Action.c(7):                                 "type": "3x",\n
+Action.c(7):                                 "url": "//qat3-content.delta.com/content/path-to-3x.png"\n
+Action.c(7):                               }\n
+Action.c(7):                             }\n
+Action.c(7):                           ]\n
+Action.c(7):                         },\n
+Action.c(7):                         "upsellFullImage3": {\n
+Action.c(7):                           "height": "192px",\n
+Action.c(7):                           "alt": "Upsell Full Image3",\n
+Action.c(7):                           "src": "//qat3-content.delta.com/content/dam/delta-content-api/image
+Action.c(7):     s/upsellHalfBannerImg_CKO.jpg",\n
+Action.c(7):                           "sizes": "1200px",\n
+Action.c(7):                           "width": "168px"\n
+Action.c(7):                         },\n
+Action.c(7):                         "mobileInteractiveSeatImage1": {\n
+Action.c(7):                           "alt": "mobile-alt text",\n
+Action.c(7):                           "type": "3x",\n
+Action.c(7):                           "url": "//qat3-content.delta.com/content/path-to-3x.png"\n
+Action.c(7):                         },\n
+Action.c(7):             
+Action.c(7): t=1292ms: 6648-byte response body for "http://stage-pvt-apigateway.delta.com/v1/contents/baseline/brands/products?pageId=trip-summary" (RelFrameId=1, Internal ID=1)
+Action.c(7):                 "brandPrimaryName": {\n
+Action.c(7):                           "text": "Delta Premium Select",\n
+Action.c(7):                           "hasMarkup": false\n
+Action.c(7):                         },\n
+Action.c(7):                         "mobileFlexUpsellImage": {\n
+Action.c(7):                           "alt": "Mobile Flex Upsell Image",\n
+Action.c(7):                           "type": "3x",\n
+Action.c(7):                           "url": "mobile-image-attributes"\n
+Action.c(7):                         },\n
+Action.c(7):                         "mobileLightBrandIconUrl": "//qat3-content.delta.com/path/to/image-lig
+Action.c(7):     ht.png",\n
+Action.c(7):                         "shortBrandHeader": {\n
+Action.c(7):                           "text": "Delta Premium Short Header",\n
+Action.c(7):                           "hasMarkup": false\n
+Action.c(7):                         },\n
+Action.c(7):                         "upsellFullImage1": {\n
+Action.c(7):                           "height": "192px",\n
+Action.c(7):                           "alt": "Upsell Full Image1",\n
+Action.c(7):                           "src": "//qat3-content.delta.com/content/dam/delta-content-api/image
+Action.c(7):     s/upsellHalfBannerImg_CKO.jpg",\n
+Action.c(7):                           "sizes": "1200px",\n
+Action.c(7):                           "width": "168px"\n
+Action.c(7):                         },\n
+Action.c(7):                         "upsellFullImage2": {\n
+Action.c(7):                           "height": "192px",\n
+Action.c(7):                           "alt": "Upsell Full Image 2",\n
+Action.c(7):                           "src": "//qat3-content.delta.com/content/dam/delta-content-api/image
+Action.c(7):     s/upsellHalfBannerImg_CKO.jpg",\n
+Action.c(7):                           "sizes": "1200px",\n
+Action.c(7):                           "width": "168px"\n
+Action.c(7):                         },\n
+Action.c(7):                         "mobileFlexModalImage": {\n
+Action.c(7):                           "alt": "Mobile Modal Image",\n
+Action.c(7):                           "type": "3x",\n
+Action.c(7):                           "url": "//qat3-content.delta.com/content/dam/delta-content-api/image
+Action.c(7):     s/upsellHalfBannerImg_CKO.jpg"\n
+Action.c(7):                         },\n
+Action.c(7):                         "termsandconditions": {\n
+Action.c(7):                           "header": {\n
+Action.c(7):                             "text": "Terms and Conditions",\n
+Action.c(7):                             "hasMarkup": true\n
+Action.c(7):                           },\n
+Action.c(7):                           "tandc": {\n
+Action.c(7):                             "text": "All content on this Internet site is owned or controlled 
+Action.c(7):     by Delta Air Lines and is protected by worldwide copyright laws. You may download content 
+Action.c(7):     only for your personal use for non-commercial purposes, but no further reproduction or mod
+Action.c(7):     ification of the content is permitted. The products, technology or processes described in 
+Action.c(7):     this site may be the subject of other intellectual property rights reserved by Delta Air L
+Action.c(7):     ines or other third parties. No license is granted with respect to those intellectual prop
+Action.c(7):     erty rights.",\n
+Action.c(7):                             "hasMarkup": false\n
+Action.c(7):                           }\n
+Action.c(7):                         },\n
+Action.c(7):                         "refundability": {\n
+Action.c(7):                           "text": "refundability",\n
+Action.c(7):                           "hasMarkup": false\n
+Action.c(7):                         },\n
+Action.c(7):                         "upsellSuperHeader": {\n
+Action.c(7):                           "text": "A NEW INTERNATIONAL CABIN",\n
+Action.c(7):                           "hasMarkup": false\n
+Action.c(7):                         },\n
+Action.c(7):                         "flexModalImage": {\n
+Action.c(7):                           "height": "192px",\n
+Action.c(7):                           "alt": "Modal Image",\n
+Action.c(7):                           "src": "//qat3-content.delta.com/content/dam/delta-content-api/image
+Action.c(7):     s/upsellHalfBannerImg_CKO.jpg",\n
+Action.c(7):                           "sizes": "1200px",\n
+Action.c(7):                           "width": "168px"\n
+Action.c(7):                         },\n
+Action.c(7):                         "upsellDisclaimer": {\n
+Action.c(7):                           "text": "Enjoy a wider seat, footrest and widest-in-class entertainm
+Action.c(7):     ent screens in Delta's newest international cabin.",\n
+Action.c(7):                           "hasMarkup": false\n
+Action.c(7):                         },\n
+Action.c(7):                         "upsellLinkLabel": {\n
+Action.c(7):                           "displayLabel": "See Details",\n
+Action.c(7):                           "display": "true"\n
+Action.c(7):                         },\n
+Action.c(7):                         "flexPromo": {\n
+Action.c(7):                           "header": {\n
+Action.c(7):                             "text": "FLEXIBILITY?",\n
+Action.c(7):                             "hasMarkup": true\n
+Action.c(7):                           },\n
+Action.c(7):                           "superHeader": {\n
+Action.c(7):                             "text": "Need",\n
+Action.c(7):                             "hasMarkup": false\n
+Action.c(7):                           },\n
+Action.c(7):                           "bulletPromos": {\n
+Action.c(7):                             "type": "bullets",\n
+Action.c(7):                             "bullets": [\n
+Action.c(7):                               {\n
+Action.c(7):                                 "displayDefault": "n",\n
+Action.c(7):                                 "text": "Bullet Item 1",\n
+Action.c(7):                                 "hasMarkup": false\n
+Action.c(7):                               },\n
+Action.c(7):                               {\n
+Action.c(7):                                 "displayDefault": "n",\n
+Action.c(7):                                 "text": "Bullet Item 2",\n
+Action.c(7):                                 "hasMarkup": false\n
+Action.c(7):                               },\n
+Action.c(7):                               {\n
+Action.c(7):                                 "displayDefault": "n",\n
+Action.c(7):                                 "text": "Bullet Item 3",\n
+Action.c(7):                                 "hasMarkup": false\n
+Action.c(7):                               },\n
+Action.c(7):                               {\n
+Action.c(7):                                 "displayDefault": "n",\n
+Action.c(7):                                 "text": "Bullet Item4",\n
+Action.c(7):                                 "hasMarkup": false\n
+Action.c(7):                               }\n
+Action.c(7):                             ]\n
+Action.c(7):                           }\n
+Action.c(7):                         },\n
+Action.c(7):                         "mobileFlexUpsellFullImage": {\n
+Action.c(7):                           "alt": "Mobile Flex Upsell Full Image",\n
+Action.c(7):                           "type": "3x",\n
+Action.c(7):                           "url": "mobile-image-attributes"\n
+Action.c(7):                         },\n
+Action.c(7):                         "mediaExpImage": {\n
+Action.c(7):                           "SkipAttributes": {\n
+Action.c(7):                             "text": "hiddenValue",\n
+Action.c(7):                             "hasMarkup": false\n
+Action.c(7):                           },\n
+Action.c(7):                           "hiddenValue": {\n
+Action.c(7):                             "text": "hero",\n
+Action.c(7):                             "hasMarkup": false\n
+Action.c(7):                           },\n
+Action.c(7):                           "images": [\n
+Action.c(7):                             {\n
+Action.c(7):                               "height": "500px",\n
+Action.c(7):                               "imgUrl": "//qat3-content.delta.com/content/path-toimedia-img.pn
+Action.c(7):     g",\n
+Action.c(7):                               "displayDefault": "y",\n
+Action.c(7):                               "id": "temp1",\n
+Action.c(7):                               "alt": "alt text",\n
+Action.c(7):                               "width": "500px"\n
+Action.c(7):                             },\n
+Action.c(7):                             {\n
+Action.c(7):                               "height": "600px",\n
+Action.c(7):                               "imgUrl": "//qat3-content.delta.com/content/path-toimedia-img.pn
+Action.c(7):     g",\n
+Action.c(7):                               "displayDefault": "n",\n
+Action.c(7):                               "id": "temp2",\n
+Action.c(7):                               "alt": "alt text",\n
+Action.c(7):                               "width": "600px"\n
+Action.c(7):                             }\n
+Action.c(7):                           ]\n
+Action.c(7):                         },\n
+Action.c(7):                         "shortBrandDescription": {\n
+Action.c(7):                           "text": "SELECT LONG-HAUL INTERNATIONAL",\n
+Action.c(7):                           "hasMarkup": false\n
+Action.c(7):                         }\n
+Action.c(7):                       }\n
+Action.c(7):                     ]\n
+Action.c(7):                   },\n
+Action.c(7):                   "transactionId": "api-evdla604.delta.com-14507-121134-1"\n
+Action.c(7):                 }\n
+Action.c(7):             
+Action.c(7): t=1466ms: Request done "http://stage-pvt-apigateway.delta.com/v1/contents/baseline/brands/products?pageId=trip-summary"  	[MsgId: MMSG-26000]
+Action.c(7): web_custom_request("tripSummary") was successful, 27935 body bytes, 613 header bytes  	[MsgId: MMSG-26386]
+Action.c(18): Notify: Transaction "02_TripSummary" ended with a "Pass" status (Duration: 0.8048 Wasted Time: 0.2896).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+t=1582ms: Closed connection [0] to stage-pvt-apigateway.delta.com:80 after completing 1 request(s)  	[MsgId: MMSG-26000]

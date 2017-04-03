@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Date: Fri, 31 Mar 2017 18:00:37 GMT
+Content-Type: application/json
+Content-Length: 27935
+Connection: keep-alive
+Host: stage-pvt-apigateway.delta.com
+X-Forwarded-For: 139.72.240.129, 147.118.248.9
+X-Forwarded-Port: 9001
+X-Forwarded-Proto: http
+Cache-Control: no-cache
+Referer: http://stage-pvt-apigateway.delta.com/v1/contents/baseline/brands/products
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Accept-Encoding: gzip, deflate
+Accept: */*
+TransactionId: api-evila684.delta.com-46475-40033-1
+DeveloperAppName: MBTestAppStage
+Server: Apigee Router
+

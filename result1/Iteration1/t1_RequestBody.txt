@@ -1,0 +1,1 @@
+"{  "brandAndProducts": 	[{"brand": {"id": "dpps"},"products": {"id":"amenity.AM0CL2"}] }}"
